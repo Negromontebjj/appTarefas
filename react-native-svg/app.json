@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "react-native-svg",
+    "slug": "react-native-svg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,24 +17,14 @@
     "ios": {
       "supportsTablet": true
     },
-    "androidStatusBar": {
-      "barStyle": "light-content",
-      "backgroundColor": "#000"
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "../assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.negromontebjj.app"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "694fe419-c587-4238-bcda-3822cfbca545"
-      }
     }
   }
 }
